@@ -12,7 +12,7 @@ Name | Language | Summary | Level | Writeup ?
 [f4k3]() | PHP | IDOR,JPEG EXIF | 💀💀💀 | ✔️
 [easyWeb]() | PHP | Type Juggling | 💀💀💀💀 | ✔️
 [Vai todo mundo perder]() | Python | SSTI | 💀💀 | ✔️
-[Elections]() | NodeJs | Code Injection | 💀💀 | ✔️
+[Elections](hackaflag2018/Elections) | NodeJs | Code Injection | 💀💀 | ✔️
 [Source](hackaflag2018/source) | PHP | File Manipulation | 💀💀 | ✔️
 [Curl]() | PHP | Code Injection | 💀💀 | ✔️
 [Leis satânicas do PHP (trick life style)]() | PHP | PHP Object Injection | 💀💀💀💀 | ✔️
