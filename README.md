@@ -25,6 +25,5 @@ Name | Language | Summary | Level | Writeup ?
 [Client is your Product]() | PHP | XSS - Bypass csp | 💀💀💀💀💀 | ✔️
 [Xina]() | PHP | SSRF + CRLF Injection + eval | 💀💀💀💀💀 | ✔️
 [Pipi]() | PHP | Code Injection | 💀 | ✔️
-[Xina]() | PHP | SSRF + CRLF Injection + eval | 💀💀💀💀💀 | ✔️
 
 Updating...
