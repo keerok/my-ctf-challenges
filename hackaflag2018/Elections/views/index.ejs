@@ -1,0 +1,85 @@
+<html>
+	<head>
+		<title>Home</title>
+		<link rel="stylesheet" href="semantic/dist/components/button.css">
+		<link rel="stylesheet" href="semantic/dist/components/segment.css">
+		<link rel="stylesheet" href="semantic/dist/components/container.css">
+		<link rel="stylesheet" href="semantic/dist/components/icon.css">
+		<link rel="stylesheet" href="semantic/dist/components/label.css">
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<div class="ui text container">
+			<h1 class="ui header">Choro Elections</h1>
+			<h3>Who makes choro great again?</h3>
+			<h4></h4>
+			<div class="ui horizontal divider">
+
+			</div>
+		</div>
+	</head>
+	<body>
+		<div id="boot" class="ui raised very padded text container segment">
+			<h3 class="ui header">Boot</h3>
+			<p>Hello, I make people cry, but this is good, trust me and be happy crying:) ... vote for me and get a bucket!</p>
+			<button class="ui inverted violet button" id='owned' onclick="boot()" type='button'><i class="bug icon"></i></button>
+			<p> </p>
+			<span id="votosb"></span>
+		</div>
+		<div id="jeremias" class="ui raised very padded text container segment">
+			<h3 class="ui header">Jeremias</h3>
+			<p>if you complain, I'll challenge you to refute the Riemann hypothesis ... vote for me for a further 2 + 2!!!</p>
+			<button class="ui inverted violet button" onclick="jeremito()" type='button'><i class="hand spock icon"></i></button>
+			<p> </p>
+			<span id="votosj"></span>
+		</div>
+		<div id="keerok" class="ui raised very padded text container segment">
+			<h3 class="ui header">Keerok</h3>
+			<p>I just make things easy! vote for me for more web challenges!</p>
+			<button class="ui inverted violet button" onclick="keerok()" type='button'> <i class="internet explorer icon"></i></button>
+			<p> </p>
+			<span id="votosk"></span>
+		</div>
+	</body>
+	<script>
+		function boot(){
+			$(document).ready(function(){
+				$.ajax({
+					type: 'get',
+					url: 'voto/1/1',
+					complete: function(result){
+						$("#votosb").html(result.responseText);
+						$("#jeremias").html("");
+						$("#keerok").html("");
+					}
+				})
+			});
+		}
+
+		function jeremito(){
+			$(document).ready(function(){
+				$.ajax({
+					type: 'GET',
+					url: 'voto/2/1',
+					complete: function(result){
+						$("#votosj").html(result.responseText);
+						$("#boot").html("");
+						$("#keerok").html("");
+					}
+				})
+			})
+		}
+
+		function keerok(){
+			$(document).ready(function(){
+				$.ajax({
+					type: 'GET',
+					url: 'voto/3/1',
+					complete: function(result){
+						$("#votosk").html(result.responseText);
+						$("#boot").html("");
+						$("#jeremias").html("");
+					}
+				})
+			});
+		}
+	</script>
+</html>
