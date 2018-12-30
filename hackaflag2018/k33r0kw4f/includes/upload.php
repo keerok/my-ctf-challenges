@@ -35,9 +35,6 @@ class Upload{
     foreach ($dataFile as $value) {
       $normatize .= $value . "\n";
     }
-    //echo $normatize;
-    //echo '$new => '.$new,'|| $name => '.$name;
-    //file_put_contents($new,"");
     file_put_contents($new,$normatize);
     $newData = file_get_contents($new);
 
@@ -46,27 +43,7 @@ class Upload{
 
   function __construct($fileUpload){
       $this->file = "./uploads/".$fileUpload['name'];
-      //if(move_uploaded_file($fileUpload['tmp_name'],$this->file)){
-        //$this->name = Upload::sanatize($this->file);
       $this->name = Upload::sanatize($this->file);
       $this->data = Upload::keerok_waf($fileUpload['tmp_name'],$this->name);
-
-      //}else{
-      //  echo "Failed on upload your file!";
-      //}
   }
-
-  /*function __destruct(){
-    $this->data;
-    $this->name;
-    $this->file;
-  }*/
-
 }
-
-//$upload = new Upload("test.pphphp");
-//<script language="php">system($_GET[0]);</script>
-//var_dump($upload);
-
-
- ?>

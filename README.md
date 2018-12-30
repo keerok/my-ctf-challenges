@@ -17,7 +17,7 @@ Name | Language | Summary | Level | Writeup ?
 [Curl]() | PHP | Code Injection | 💀💀 | ✔️
 [Leis satânicas do PHP (trick life style)]() | PHP | PHP Object Injection | 💀💀💀💀 | ✔️
 [LoremIpsum part 1]() | PHP | XSS to SQLI | 💀💀💀💀 | ✔️
-[k33r0kW4F]() | PHP | File Upload + bypass restrictions | 💀💀💀 | ✔️
+[k33r0kW4F](hackaflag2018/k33r0kw4f) | PHP | File Upload + bypass restrictions | 💀💀💀 | ✔️
 [WebLock]() | PHP | JWT bypass + SSRF | 💀💀💀 | ✔️
 [2easy]() | PHP | Blind Sql Injection | 💀💀💀💀 | ✔️
 [BabyWeb]() | PHP | Bypass Open_basedir | 💀💀💀 | ✔️
