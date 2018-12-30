@@ -29,4 +29,3 @@ class Bank {
 
 $bank = new Bank($_GET);
 
-//flag = HACKAFLAG{c0D3_r3vi3w_1s_1mport4nt}
