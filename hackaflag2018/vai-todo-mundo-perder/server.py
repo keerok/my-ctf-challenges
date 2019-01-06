@@ -3,7 +3,14 @@ import tornado.ioloop
 import tornado.web
 
 html_template = '''
-
+<html>
+  <head>
+    <title>Resultado de busca para {{name}}</title>
+  </head>
+  <body>
+    Resultado de busca para FOO
+  </body>
+</html>
 '''
 
 class MainHandler(tornado.web.RequestHandler):
