@@ -11,7 +11,7 @@ Name | Language | Summary | Level | Writeup ?
 [FailedBook]() | PHP | Type Juggling,LFI,IDOR,file upload | 💀💀💀 | ✔️
 [f4k3]() | PHP | IDOR,JPEG EXIF | 💀💀💀 | ✔️
 [easyWeb]() | PHP | Type Juggling | 💀💀💀💀 | ✔️
-[Vai todo mundo perder]() | Python | SSTI | 💀💀 | ✔️
+[Vai todo mundo perder](hackaflag2018/vai-todo-mundo-perder) | Python | SSTI | 💀💀 | ✔️
 [Elections](hackaflag2018/Elections) | NodeJs | Code Injection | 💀💀 | ✔️
 [Source](hackaflag2018/source) | PHP | File Manipulation | 💀💀 | ✔️
 [Curl]() | PHP | Code Injection | 💀💀 | ✔️
